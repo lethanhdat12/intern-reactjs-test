@@ -1,0 +1,56 @@
+@import '../../root';
+.header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    color: #fff;
+    position: relative;
+    &__overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #3b3b3b;
+        opacity: 0.3;
+        z-index: 1;
+    }
+    &__box{
+        z-index: 2;
+        position: relative;
+    }
+    &__top{
+        @include flexBox();
+    }
+    &__logo{
+        font-size: 28px;
+        font-weight: bold;
+ 
+    }
+    &__content{
+        padding-top: 125px;
+        width: $width-content-header;
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__title{
+        span{
+            display: block;
+            margin-bottom: 22px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+    &__note{
+        font-size: 14px;
+        color: $color-dark;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    &__btn{
+        font-size: 12px !important;
+    }
+}

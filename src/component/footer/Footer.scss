@@ -1,0 +1,44 @@
+@import '../../root';
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 120px;
+    background-color: #f9fafb;
+}
+.footerbox{
+    @include flexBox(space-between,flex-start,wrap);
+    &__infor{
+        &--list{
+            @include flexBox(flex-start,center,nowrap);
+            gap: 30px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        &--t{
+            font-weight: 400;;
+        }
+        &--desc{
+            margin-bottom: 30px;
+        }
+    }
+    &__social{
+        &--list{
+            @include flexBox(center,center,nowrap);
+            gap: 10px;
+        }
+        &--item{
+             width: 40px;
+             height: 40px;
+             background-color: #b7bcc4 ;
+             border-radius: 50%;
+             text-align: center;
+             line-height: 40px;
+        }
+    }
+}

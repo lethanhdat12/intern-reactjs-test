@@ -1,0 +1,46 @@
+@import '../../root';
+
+.banner{
+    padding-bottom: 80px;
+    &__Total{
+        color: $color-oranger;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    &__box{
+        @include flexBox(flex-start,center,wrap);
+        gap: 20px;
+    }
+    &__item{
+        width: 350px;
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        &--top{
+            @include flexBox(space-between , center, nowrap);
+            margin-bottom: 16px;
+        }
+        &--title{
+            font-weight: 500;
+            font-size: 28px;
+            span{
+                display: block;
+            }
+        }
+    }
+    &__title{
+        font-weight: 500;
+        margin-bottom: 24px;
+    }
+    &__desc{
+        color: #a5a5a6;
+        margin-bottom: 30px;
+        span{
+            display: block;
+        }
+    }
+}

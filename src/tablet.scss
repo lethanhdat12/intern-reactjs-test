@@ -1,0 +1,74 @@
+
+@media screen and (max-width : 768px) {
+    .header__content{
+        padding-top: 60px;
+    }
+    .slide__item--title{
+        font-size: 14px;
+    }
+    .slide{
+        padding-top: 28px;
+    }
+    .slide__item{
+        height: 110px;
+    }
+    .banner__box{
+        gap: 16px;
+    }
+    .banner__item{
+        width: 210px;
+        height: 250px;
+    }
+    .banner__item--title{
+        font-size: 16px;
+    }
+    .banner__title{
+        font-size: 22px;
+    }
+    .videoItem__box{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        gap: 50px;
+    }
+    .videoItem__width{
+        width: 240px;
+        height: 240px;
+    }
+    .videoItem__title{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .videoItem__desc{
+        margin-bottom: 15px;
+    }
+    .btn-black{
+        padding: 6px 40px !important;
+    }
+    .banner3{
+        padding: 50px 0;
+    }
+    .banner3__title{
+        padding-bottom: 30px;
+    }
+    .banner3__box--num{
+        font-size: 40px;
+    }
+    .banner3__box{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .banner3__container{
+        padding-bottom: 50px;
+    }
+    .before{
+        padding: 50px 0;
+    }
+    .before__col--img{
+        width: 100px;
+        height: 100px;
+    }
+    .before__col{
+        margin-bottom: 16px;
+        padding: 20px 60px;
+    }
+}

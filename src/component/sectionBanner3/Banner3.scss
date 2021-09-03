@@ -1,0 +1,31 @@
+@import "../../root";
+.banner3{
+    padding: 120px 0;
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    &__title{
+        padding-bottom: 68px;
+    }
+    &__container{
+        padding-bottom: 76px;
+    }
+    &__box{
+        background-color: white;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        color: black;
+        &--num{
+            font-size: 60px;
+            font-weight: 600;
+        }
+        &--title{
+            padding-top: 14px;
+            padding-bottom: 16px;
+            margin: 0;
+        }
+    }
+    &__text{
+        padding-bottom: 25px;
+    }
+}
